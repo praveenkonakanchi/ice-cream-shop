@@ -1,0 +1,32 @@
+.products-page {
+  // Example styles
+  padding: 2rem;
+
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    .product-item {
+      margin: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 0.4rem;
+      padding: 1rem;
+      text-align: center;
+
+      img {
+        width: 10rem;
+        height: 10rem;
+      }
+
+      .product-name {
+        font-size: 1.2rem;
+        margin: 1rem 0;
+      }
+
+      .product-price {
+        color: #ff5722;
+        font-size: 1.1rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.homepage {
+  .header {
+    background: url('../assets/hero-image.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    color: #a62e1b;
+    padding: 2rem;
+    height: 20rem;
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    .shop-link {
+      background: #ff9f1c;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+  }
+}

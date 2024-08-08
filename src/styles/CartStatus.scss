@@ -1,0 +1,21 @@
+.cart-status {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1rem;
+
+  button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.6rem;
+    margin-left: 1rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #ff4d4d;
+    }
+  }
+}
